@@ -1,6 +1,6 @@
 <template>
   <div>
-    rrr222
+    rrr22233344
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
     test

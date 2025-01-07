@@ -8,6 +8,10 @@ from .models import Employee, Department
 api = NinjaAPI()
 router = Router()
 
+@router.get("/hello",auth=None)
+def hello(request):
+    return "Hello world"
+
 class DepartmentIn(Schema):
     title: str
 
