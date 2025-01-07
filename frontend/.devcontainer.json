@@ -1,0 +1,13 @@
+{
+	"name": "Nuxt Sample",
+	// Dockerfileでイメージ・コンテナを作成
+	"dockerComposeFile": "../docker-compose.yml",
+	// VS Codeのワークスペースフォルダ
+	"workspaceFolder": "/frontend",
+	// 使用するサービス
+	"service": "frontend",
+	"runServices": [
+		"frontend"
+	],
+	"shutdownAction": "stopCompose"
+}
