@@ -1,1 +1,1 @@
-# docker-django-remix-postgresql
+# docker-django-nuxt-postgresql
