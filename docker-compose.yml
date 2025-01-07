@@ -6,9 +6,9 @@ services:
         context: frontend
       tty: true
       volumes:
-        - ./frontend:/frontend
+        - ./frontend/app:/frontend/app
       ports:
-        - 5173:5173
+        - 3000:3000
       environment:
         - WATCHPACK_POLLING=true
         
@@ -48,4 +48,6 @@ services:
 
 volumes:
   postgres_data:
+    name: postgres_data
   pgadmin4_data:
+    name: pgadmin4_data
